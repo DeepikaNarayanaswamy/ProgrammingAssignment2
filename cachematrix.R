@@ -1,4 +1,4 @@
-## The functions here makeCacheMatrix & cacheSolve.
+## The functions here are makeCacheMatrix & cacheSolve.
 # makeCacheMatrix : It is used to create a new matrix and save it and its inverse in the cache.
 # cacheSolve : The fn. is used to compute the inverse of the matrix.
 
@@ -28,8 +28,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-#This function takes the matrix 'x' that is formed
+
+#cacheSolve : This function takes the matrix 'x' that is formed
 #by using makeCacheMatrix function
 # It checks for the following 
 #if the inverse has been computed already , then the inverse is taken from cache
