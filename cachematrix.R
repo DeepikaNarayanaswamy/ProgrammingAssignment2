@@ -46,6 +46,7 @@ cacheSolve <- function(x, ...) {
   }
   
   data <- x$get()
+  #matrix inverse is computed using solve fn.
   inverse <-  solve(data,...)
   x$setInverse(inverse)
   inverse
